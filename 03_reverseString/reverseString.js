@@ -1,4 +1,13 @@
-const reverseString = function() {
+const reverseString = function(text) {
+    const reversedStringtextArray = [];
+    
+    for (i=text.length; i>-1; i--){
+        reversedStringtextArray.push(text[i])
+    }
+
+   
+    return reversedStringtextArray.join('')
+
 
 };
 
